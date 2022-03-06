@@ -69,6 +69,96 @@ img {
     justify-content: space-between;
 }
 
+/* Custom */
+.my-pic {
+    border-radius: 50%;
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+}
+
+#worktype {
+    border: 0;
+    outline: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 9px;
+    color: gray;
+}
+
+.languages .prof {
+    padding-top: 50px;
+    position: relative;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.cr {
+    font-size: 0.7rem;
+}
+
+.proj-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.proj-nav {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.proj-nav a {
+    color: var(--primary-color);
+    margin: 0 10px;
+}
+
+.about-me {
+    display: flex;
+}
+
+.custom-container {
+    margin: 0 auto;
+    width: 90%;
+    height: 30%
+}
+
+.custom-container h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: var(--secondary-color);
+}
+
+.custom-container p {
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.proj-lang {
+    font-size: 0.9rem;
+}
+
+.proj-lang h3{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.proj-lang p {
+    margin-top: 0;
+}
+
+.features-main .card {
+    min-height: 450px;
+}
+
 /* Showcase */
 .showcase {
     height: 400px;
@@ -91,9 +181,9 @@ img {
     overflow: visible;
 }
 
-.showcase-text {
+/* .showcase-text {
     animation: slideInFromLeft 1s ease-in;
-}
+} */
 
 .showcase-form {
     position: relative;
@@ -102,7 +192,7 @@ img {
     width: 400px;
     padding: 40px;
     z-index: 100;
-    animation: slideInFromRight 1s ease-in;
+    /* animation: slideInFromRight 1s ease-in; */
 }
 
 .showcase-form .form-control {
@@ -139,7 +229,7 @@ img {
 /* Stats */
 .stats {
     padding: 100px;
-    animation: slideInFromBottom 1s ease-in;
+    /* animation: slideInFromBottom 1s ease-in; */
 }
 
 .stats-heading {
@@ -211,13 +301,13 @@ img {
     padding: 30px;
 }
 
-.features-main .grid > *:first-child {
+/* .features-main .grid > *:first-child {
     grid-column: 1 / span 3;
 }
 
 .features-main .grid > *:nth-child(2){
     grid-column: 1 / span 2;
-}
+} */
 
 .docs-head img {
     width: 200px;
@@ -265,13 +355,13 @@ img {
     .showcase-text {
         text-align: center;
         margin-top: 40px;
-        animation: slideInFromTop 1s ease-in;
+        /* animation: slideInFromTop 1s ease-in; */
     }
 
     .showcase-form {
         justify-self: center;
         margin: auto;
-        animation: slideInFromBottom 1s ease-in;
+        /* animation: slideInFromBottom 1s ease-in; */
     }
 
     .cli .grid > *:first-child {
